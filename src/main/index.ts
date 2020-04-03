@@ -1,5 +1,5 @@
 import express, {Express} from "express";
-import logger from "./logger";
+import {logger} from "./logger";
 
 const app: Express = express();
 const port: number = 7777;

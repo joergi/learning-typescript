@@ -1,6 +1,6 @@
-import winston, { Logger } from "/winston"
+import winston, { Logger } from "winston";
 
-const logger: Logger = winston.createLogger({
+export const logger: Logger = winston.createLogger({
     format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.printf((info) => {
