@@ -1,5 +1,6 @@
 # learning-typescript
 
-## First step: Hello World
+## Step 01: Hello World
 a running example , a Hello World.
-it's in the branch First-Step_Hello-World
+it's in the branch Step-01_Hello-World
+
