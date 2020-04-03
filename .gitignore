@@ -1,5 +1,5 @@
 .idea
-
+*.js
 learning-typescript.iml
 
 node_modules
