@@ -14,6 +14,6 @@ There is a private function `privateFunction()` and the public function `publicF
 The public function is called from the `index.ts`     
 
 ###
-changelog:
-2020-04-03 
+changelog:     
+2020-04-03      
 Step 01 - removed the logger function as it still makes problems, using the console.log temporally 
