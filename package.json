@@ -6,10 +6,10 @@
     "url": "https://github.com/joergi/learning-typescript"
   },
   "author": "github.com/joergi",
-  "main": "src/main/index.js",
+  "main": "app/src/index.js",
   "scripts": {
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
-    "start": "ts-node ./src/main/index.ts"
+    "build": "tsc",
+    "start": "node app/src/index"
   },
   "dependencies": {
     "express": "^4.17.1",
