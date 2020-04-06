@@ -14,28 +14,28 @@ export function overloadedFunction(firstParam: string | number, secondParam?: st
         if (typeof firstParam === "string") {
             return "only one string: " + firstParam;
         }
-
+      
         if (typeof firstParam === "number") {
             return "only one number" + firstParam;
         }
 
     } else {
 
-        if (typeof firstParam === "string" && secondParam === "string") {
+        if (typeof firstParam === "string" && typeof secondParam === "string") {
             return " first param is string" + firstParam + " second param is string  " + secondParam;
         }
 
-        if (typeof firstParam === "number" && secondParam === "number") {
+        if (typeof firstParam === "number" && typeof secondParam === "number") {
             return " first param is number" + firstParam + " second param is number  " + secondParam;
         }
 
-        if (typeof firstParam === "number" && secondParam === "string") {
-            logger.info(" first param is number" + firstParam + " second param is string  " + secondParam);
+        if (typeof firstParam === "number" && typeof secondParam === "string") {
+            return " first param is number" + firstParam + " second param is string  " + secondParam;
         }
 
-        if (typeof firstParam === "string" && secondParam === "number") {
-            logger.info(" first param is string" + firstParam + " second param is number  " + secondParam);
+        if (typeof firstParam === "string" && typeof secondParam === "number") {
+            return " first param is string" + firstParam + " second param is number  " + secondParam;
+
         }
     }
-
 }

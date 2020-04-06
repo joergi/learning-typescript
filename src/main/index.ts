@@ -42,4 +42,5 @@ function callingMethodOverloading(){
     logger.info(overloadedFunction("only one string", "but now with 2 strings"));
     logger.info(overloadedFunction("only one string", 666));
     logger.info(overloadedFunction(42, "only one string"));
+    logger.info(overloadedFunction(42, 666));
 }
