@@ -24,3 +24,4 @@ there are some rules:
 
 ## Step 04: Array and Loop
 It's in the branch [Step-04_array-and-loop](https://github.com/joergi/learning-typescript/tree/Step_04-_array-and-loop)
+
