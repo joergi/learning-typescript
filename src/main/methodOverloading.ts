@@ -4,8 +4,8 @@ export function overloadedFunction(onlyOneString: string): string;
 export function overloadedFunction(onlyOneNumber: number): string;
 export function overloadedFunction(twoStrings1: string, twoStrings2: string): string;
 export function overloadedFunction(twoNumbers1: number, twoNumbers2: number): string;
-export function overloadedFunction(twoStrings1: string, twoNumbers2: number) :string;
-export function overloadedFunction(twoNumbers1: number, twoString2: string) :string;
+export function overloadedFunction(twoStrings1: string, twoNumbers2: number): string;
+export function overloadedFunction(twoNumbers1: number, twoString2: string): string;
 
 export function overloadedFunction(firstParam: string | number, secondParam?: string | number) {
 
