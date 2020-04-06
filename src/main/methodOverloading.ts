@@ -13,8 +13,8 @@ export function overloadedFunction(firstParam: string | number, secondParam?: st
 
         if (typeof firstParam === "string") {
             return "only one string: " + firstParam;
-
         }
+      
         if (typeof firstParam === "number") {
             return "only one number" + firstParam;
         }
@@ -35,7 +35,7 @@ export function overloadedFunction(firstParam: string | number, secondParam?: st
 
         if (typeof firstParam === "string" && typeof secondParam === "number") {
             return " first param is string" + firstParam + " second param is number  " + secondParam;
+
         }
     }
-
 }
