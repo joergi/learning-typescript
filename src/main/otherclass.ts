@@ -8,4 +8,6 @@ export function publicFunction(stringFromOutside: String) {
     privateFunction(stringFromOutside);
 }
 
-
+export const constFunction = (): string => {
+    return "this is a const Function ";
+}
