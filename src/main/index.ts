@@ -3,6 +3,7 @@ import {logger} from "./logger";
 import {constFunction, publicFunction} from "./otherclass";
 import {overloadedFunction} from "./methodOverloading";
 import {forEachLoop, forLoop} from "./arrayLoop";
+import {allCalls} from "./restCall";
 
 
 const app: Express = express();
@@ -14,7 +15,7 @@ const server = app.listen(port, () => {
     logger.info("Server started on localhost:" + port);
     logger.info("\n");
 
-    // 2nd step - calling functions
+    // 2nd step - calling fun   ctions
     logger.info("################################# STEP 2 - calling functions #################################");
     publicFunction("Hello, I'm a test from the outside");
     logger.info("this is coming from the const function: " + constFunction)
@@ -31,6 +32,9 @@ const server = app.listen(port, () => {
     logger.info("\n");
     forEachLoop();
     logger.info("\n");
+
+    logger.info("################################# STEP 5 - Rest Calls ########################################");
+    allCalls();
 });
 
 export = server;

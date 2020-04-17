@@ -26,3 +26,9 @@ there are some rules:
 ## Step 04: Array and Loop
 It's in the branch [Step-04_array-and-loop](https://github.com/joergi/learning-typescript/tree/Step_04-_array-and-loop)    
 I used both a classic for-loop and a for-each loop to loop through the arrays.
+
+## Step 05: Rest Calls
+It's in the branch [Step-05 Rest Calls](https://github.com/joergi/learning-typescript/tree/Step-05_-_Rest-Calls)
+No backend can live nowadays without REST-Calls. So it's time to implement this in our service.   
+For using simple calls, we use the possiblity [Mocky.io](https://www.mocky.io/) gives us. Thx to [julien-lafont](https://github.com/julien-lafont/Mocky).
+ 
