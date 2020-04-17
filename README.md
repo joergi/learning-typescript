@@ -10,6 +10,6 @@ Start it with  `npm run start`
 It's in the branch [Step-02_call-function](https://github.com/joergi/learning-typescript/tree/Step-02_call-function)
 
 In step 2 we have a new class, called: `otherclass.ts`   
-There is a private function `privateFunction()` and the public function `publicFunction()`;
-There is also a `const`, which is differently written function. 
+There is a private function `privateFunction()` and the public function `publicFunction()`;    
+There is also a `const`, which is differently written function.    
 The public function is called from the `index.ts`     
