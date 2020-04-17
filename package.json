@@ -9,7 +9,8 @@
   "main": "app/src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node app/src/index"
+    "start": "node app/src/index",
+    "start-dev": "nodemon ."
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.0",
-    "@types/node": "^12.6.2"
+    "@types/node": "^12.6.2",
+    "nodemon": "^1.19.4"
   }
 }
