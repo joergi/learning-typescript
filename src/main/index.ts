@@ -1,16 +1,14 @@
 import express, {Express} from "express";
 import {logger} from "./logger";
-import {publicFunction} from "./otherclass";
+import {constFunction, publicFunction} from "./otherclass";
 import {overloadedFunction} from "./methodOverloading";
 import {forEachLoop, forLoop} from "./arrayLoop";
-
 
 
 const app: Express = express();
 const port: number = 7777;
 
 const server = app.listen(port, () => {
-
     // 1st step
     logger.info("################################# STEP 1 - init ##############################################");
     logger.info("Server started on localhost:" + port);
@@ -19,6 +17,7 @@ const server = app.listen(port, () => {
     // 2nd step - calling functions
     logger.info("################################# STEP 2 - calling functions #################################");
     publicFunction("Hello, I'm a test from the outside");
+    logger.info("this is coming from the const function: " + constFunction)
     logger.info("\n");
 
     // 3rd step - method overloading
