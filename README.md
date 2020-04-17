@@ -11,8 +11,5 @@ It's in the branch [Step-02_call-function](https://github.com/joergi/learning-ty
 
 In step 2 we have a new class, called: `otherclass.ts`   
 There is a private function `privateFunction()` and the public function `publicFunction()`;
+There is also a `const`, which is differently written function. 
 The public function is called from the `index.ts`     
-
-### changelog:
-2020-04-03 
-Step 01 - removed the logger function as it still makes problems, using the console.log temporally 
