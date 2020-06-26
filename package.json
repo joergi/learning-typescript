@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node app/src/index",
-    "start-dev": "nodemon ."
+    "start-dev": "nodemon .",
+    "test": "mocha -r ts-node/register src/test/**/*.test.ts"
   },
   "dependencies": {
     "express": "^4.17.1",
