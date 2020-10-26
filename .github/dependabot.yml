@@ -5,4 +5,6 @@ updates:
   schedule:
     interval: daily
     time: '04:00'
+  reviewers:
+    - "joergi"    
   open-pull-requests-limit: 100
